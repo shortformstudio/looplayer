@@ -1,0 +1,18 @@
+{
+  "contract": "webhost/v1",
+  "version": 1,
+  "name": "looplayer",
+  "cloudflare": {
+    "project": "looplayer",
+    "productionBranch": "main",
+    "buildCommand": "npx expo export --platform web",
+    "buildOutputDirectory": "dist",
+    "nodeVersion": "20"
+  },
+  "github": {
+    "repo": "shortformstudio/looplayer",
+    "branch": "main"
+  },
+  "preset": "expo-web",
+  "note": "build contract for the cloudflare pages git integration — webhost reads this file"
+}
